@@ -1,0 +1,16 @@
+{
+  "name": "syphon.org",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tachyons": "4.12.0"
+  }
+}
