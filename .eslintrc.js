@@ -22,10 +22,12 @@ module.exports = {
         'react',
     ],
     rules: {
+        'react/prop-types': 0,
+        "react/react-in-jsx-scope": 0,
         'import/prefer-default-export': 0,
         'react/prefer-stateless-function': [0, { ignorePureComponents: true }],
         'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
-        'react/prop-types': 0,
+        "react/jsx-max-props-per-line": [2, { "maximum": 2, "when": "multiline" }],
         'react/destructuring-assignment': [0, 'always', { ignoreClassFields: true }],
     },
 };

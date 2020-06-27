@@ -4,17 +4,23 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start"
   },
   "devDependencies": {
-    "tailwindcss": "^1.4.6",
-    "postcss-preset-env": "^6.7.0"
+    "eslint": "^7.3.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "next-images": "^1.4.0",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.4.6"
   },
   "dependencies": {
     "next": "^9.4.4",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "tachyons": "^4.12.0"
+    "react-dom": "^16.13.1"
   }
 }
