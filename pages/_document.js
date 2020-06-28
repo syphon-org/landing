@@ -9,7 +9,14 @@ class MyDocument extends Document {
     render() {
         return (
             <Html>
-                <Head />
+                <Head >
+                    <link
+                        rel="preload"
+                        href="/fonts/Rubik-Regular.ttf"
+                        as="Rubik"
+                        crossOrigin=""
+                    />
+                </Head>
                 <body class="leading-normal tracking-normal text-white gradient">
                     <Main />
                     <NextScript />
