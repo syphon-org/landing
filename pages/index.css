@@ -27,6 +27,6 @@ span {
 }
 
 .gradient {
-    background: linear-gradient(90deg, rgba(52, 199, 181, 1) 20%, #FEFEFE 100%);
+    background: linear-gradient(90deg, rgba(52, 199, 181, 1) 20%, rgba(52, 199, 181, 0.5) 100%);
 }
  

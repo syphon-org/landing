@@ -16,6 +16,7 @@ class MyDocument extends Document {
                         as="Rubik"
                         crossOrigin=""
                     />
+                    <link rel="shortcut icon" href="favicon.ico" />
                 </Head>
                 <body class="leading-normal tracking-normal text-white gradient">
                     <Main />

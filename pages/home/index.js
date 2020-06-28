@@ -4,9 +4,9 @@ import Link from 'next/link'
 // import thingsJson from '../public/static/all-things.json';
 
 // Components
-import Header from '../components/header';
-import HeaderBloated from '../components/header-bloated';
-import SectionWaves from '../components/section-waves';
+import Header from '../../components/header';
+import HeaderBloated from '../../components/header-bloated';
+import SectionWaves from '../../components/section-waves';
 
 function Main({ things }) {
     return (
