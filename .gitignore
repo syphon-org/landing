@@ -18,6 +18,4 @@ yarn-error.log
 
 .next
 
-*/_next
-
 #out/
