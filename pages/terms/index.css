@@ -22,11 +22,12 @@ span {
     font-family: Rubik;
 }
 
+p {
+    color: black
+}
+
 .app-padding {
     padding-top: 10vh;
 }
-
-.gradient {
-    background: linear-gradient(90deg, rgba(52, 199, 181, 1) 20%, rgba(52, 199, 181, 0.8) 100%);
-}
+ 
  
