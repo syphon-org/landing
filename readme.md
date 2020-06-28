@@ -1,2 +1,2 @@
-# Syphon.org
+# syphon.org
 
