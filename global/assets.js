@@ -12,6 +12,7 @@ import undrawProfileData from '../public/images/undraw_profile_data.svg';
 import undrawConnection from '../public/images/undraw_connection.svg';
 import undrawMessagingFun from '../public/images/undraw_messaging_fun.svg';
 import undrawInsertBlock from '../public/images/undraw_insert_block.svg';
+import undrawVoid from '../public/images/undraw_void.svg';
 
 module.exports = {
     iconApp: iconApp,
@@ -24,5 +25,6 @@ module.exports = {
     undrawMessagingFun: undrawMessagingFun,
     undrawGroupChat: undrawGroupChat,
     undrawProfileData: undrawProfileData,
-    undrawInsertBlock: undrawInsertBlock
+    undrawInsertBlock: undrawInsertBlock,
+    undrawVoid: undrawVoid,
 }

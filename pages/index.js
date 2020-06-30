@@ -20,7 +20,7 @@ function Main({ things }) {
                         </a>
                         <h1 style={{ fontFamily: 'Rubik' }} class="my-4 text-5xl leading-tight">chat with your privacy and freedom intact</h1>
                         {/* <h1 class="my-4 text-5xl font-bold leading-tight">privacy focused chat that anyone can use</h1> */}
-                        <p style={{ fontFamily: 'Rubik-Light' }} class="leading-normal text-2xl mb-8">a non for profit, open source matrix client with a focus on privacy and ease of use</p>
+                        <p class="leading-normal text-2xl mb-8">a non for profit, open source matrix client with a focus on privacy and ease of use</p>
                         <div class='flex flex-row'>
                             <div style={{ marginLeft: -16 }}>
                                 <a href='https://play.google.com/store/apps/details?id=org.tether.tether'>
@@ -73,7 +73,6 @@ function Main({ things }) {
                                 </p>
                             </div>
                         </div>
-
                         <div class="flex flex-wrap lg:mt-16">
                             <div class="w-5/6 sm:w-1/2 p-6">
                                 <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">customize it</h3>
@@ -85,12 +84,25 @@ function Main({ things }) {
                                 <div class="w-full sm:h-64 mx-auto" viewBox="0 0 1177 598.5">
                                     <img src={assets.undrawInsertBlock} />
                                 </div>
+                            </div>
+                        </div>
 
+                        <div class="flex flex-wrap flex-col-reverse sm:flex-row lg:mt-16">
+                            <div class="w-full sm:w-2/5 p-6 mt-6">
+                                <div class="w-5/6 sm:h-64 mx-auto" viewBox="0 0 1176.60617 873.97852" >
+                                    <img src={assets.undrawVoid} />
+                                </div>
+                            </div>
+                            <div class="w-full sm:w-1/2 p-6 mt-6">
+                                <div class="align-middle">
+                                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">no analytics</h3>
+                                    <p class="text-gray-600 mb-8">no analytics or tracking are present outside what matrix attempts to track on clients, but contact us at support@syphon.org if you need help
+                          <br /><br />
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-
-
                     <h1 class="w-full mb-2 mt-32 text-5xl font-bold leading-tight text-center text-gray-800">future goals</h1>
                     <div class="w-full mb-4">
                         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -124,7 +136,6 @@ function Main({ things }) {
                                 </p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>
