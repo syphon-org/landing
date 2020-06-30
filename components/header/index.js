@@ -13,7 +13,7 @@ export default class Header extends Component {
                         <div className="fill-current h-12 w-12">
                             <img src={assets.iconAppWhite} />
                         </div>
-                        <span style={{ marginBottom: -4, marginLeft: 16, fontFamily: 'Rubik-Light', letterSpacing: 0.5, fontSize: 32 }} className="text-2xl tracking-tight">
+                        <span style={{ marginBottom: -4, marginLeft: 16, letterSpacing: 0.5, fontSize: 32 }} className="text-2xl tracking-tight logo">
                             syphon
                         </span>
                     </a>

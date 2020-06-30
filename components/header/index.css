@@ -26,6 +26,10 @@ h1{
     font-family: Rubik;
 }
 
+.logo {
+    font-family: Rubik-Light;
+}
+
 .h-gradient {
     background: linear-gradient(90deg, rgba(52, 199, 181, 1) 0%, rgba(52, 199, 181, 0.8) 100%);
 }
