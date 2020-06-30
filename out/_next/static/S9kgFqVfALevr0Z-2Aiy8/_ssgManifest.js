@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002Fterms","\u002Fabout","\u002Fsupport","\u002Fdownloads","\u002Funder","\u002Fprivacy","\u002F"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
