@@ -22,6 +22,12 @@ class MyDocument extends Document {
                         as="Rubik-Light"
                         crossOrigin=""
                     />
+                    <link
+                        rel="preload"
+                        href="/fonts/Rubik-Bold.ttf"
+                        as="Rubik-Bold"
+                        crossOrigin=""
+                    />
                     <link rel="shortcut icon" href="favicon.ico" />
                 </Head>
                 <body class="leading-normal tracking-normal text-white gradient">

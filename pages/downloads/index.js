@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 // Components 
-import assets from '../global/assets';
+import assets from '../../global/assets';
 
 function Main() {
     return (

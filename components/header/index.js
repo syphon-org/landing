@@ -13,7 +13,7 @@ export default class Header extends Component {
                         <div className="fill-current h-12 w-12">
                             <img src={assets.iconAppWhite} />
                         </div>
-                        <span style={{ marginLeft: 16, fontFamily: 'Rubik-Light', letterSpacing: 0.5, fontSize: 32 }} className="text-2xl tracking-tight">
+                        <span style={{ marginBottom: -4, marginLeft: 16, fontFamily: 'Rubik-Light', letterSpacing: 0.5, fontSize: 32 }} className="text-2xl tracking-tight">
                             syphon
                         </span>
                     </a>
@@ -25,10 +25,10 @@ export default class Header extends Component {
                     <div className="flex items-center w-full lg:w-auto">
                         <div className="flex-grow items-center content-center text-sm mr-4">
                             <a className="text-base text-teal-200 hover:text-white mr-4" href="/about">About</a>
-                            <a className="text-base text-teal-200 hover:text-white mr-4" href="/about">Support</a>
+                            <a className="text-base text-teal-200 hover:text-white mr-4" href="/support">Support</a>
                         </div>
                         <div>
-                            <a className="border rounded text-white border-white text-sm mt-4 px-4 py-2 hover:border-transparent hover:text-teal-500 hover:bg-white" href="/downloads">Download</a>
+                            <a className="border rounded text-white border-white text-sm mt-4 px-4 py-2 hover:border-transparent hover:text-teal-500 hover:bg-white" href="https://github.com/syphon-org/syphon/releases">Download</a>
                         </div>
                     </div>
                 </div>
