@@ -20,7 +20,7 @@ function Main({ things }) {
                         </a>
                         <h1 style={{ fontFamily: 'Rubik' }} class="my-4 text-5xl leading-tight">chat with your privacy and freedom intact</h1>
                         {/* <h1 class="my-4 text-5xl font-bold leading-tight">privacy focused chat that anyone can use</h1> */}
-                        <p style={{ fontFamily: 'Rubik-Light' }} class="leading-normal text-2xl mb-8">a non-profit, open source matrix client with a focus on privacy and ease of use</p>
+                        <p style={{ fontFamily: 'Rubik-Light' }} class="leading-normal text-2xl mb-8">a non for profit, open source matrix client with a focus on privacy and ease of use</p>
                         <div class='flex flex-row'>
                             <div style={{ marginLeft: -16 }}>
                                 <a href='https://play.google.com/store/apps/details?id=org.tether.tether'>
@@ -77,7 +77,7 @@ function Main({ things }) {
                         <div class="flex flex-wrap lg:mt-16">
                             <div class="w-5/6 sm:w-1/2 p-6">
                                 <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">customize it</h3>
-                                <p class="text-gray-600 mb-8">pick colors, themes, and eventually different widgets throughout the app at your preference
+                                <p class="text-gray-600 mb-8">pick colors, themes, and eventually different widgets throughout the app according to your preference
                             <br /><br />
                                 </p>
                             </div>
@@ -99,7 +99,7 @@ function Main({ things }) {
                     <div class="flex flex-wrap lg:mt-16">
                         <div class="w-5/6 sm:w-1/2 p-6">
                             <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">peer to peer messaging</h3>
-                            <p class="text-gray-600 mb-8">by default, hosting the server to one or all of your devices without the need for a homeserver
+                            <p class="text-gray-600 mb-8">host the server to one or all of your devices without the need for a homeserver
                             <br /><br />
                             </p>
                         </div>
@@ -119,7 +119,7 @@ function Main({ things }) {
                         <div class="w-full sm:w-1/2 p-6 mt-6">
                             <div class="align-middle">
                                 <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">transfer data</h3>
-                                <p class="text-gray-600 mb-8">allows a tool within the application to transfer your data from one homeserver to another, or locally with P2P
+                                <p class="text-gray-600 mb-8">transfer your data from one homeserver to another, or locally with P2P
                                 <br /><br />
                                 </p>
                             </div>
