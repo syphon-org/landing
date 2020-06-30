@@ -20,7 +20,7 @@ function Main({ things }) {
                         </a>
                         <h1 style={{ fontFamily: 'Rubik' }} class="my-4 text-5xl leading-tight">chat with your privacy and freedom intact</h1>
                         {/* <h1 class="my-4 text-5xl font-bold leading-tight">privacy focused chat that anyone can use</h1> */}
-                        <p class="leading-normal text-2xl mb-8">a non for profit, open source matrix client with a focus on privacy and ease of use</p>
+                        <p class="leading-normal text-2xl mb-8">a not for profit, open source matrix client with a focus on privacy and ease of use</p>
                         <div class='flex flex-row'>
                             <div style={{ marginLeft: -16 }}>
                                 <a href='https://play.google.com/store/apps/details?id=org.tether.tether'>
