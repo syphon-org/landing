@@ -23,7 +23,7 @@ export default class Header extends Component {
                         </button>
                     </div>
                     <div className="flex items-center w-full lg:w-auto">
-                        <div className="flex-grow items-center content-center text-sm mr-4">
+                        <div className="flex-grow items-center content-center text-sm">
                             <a className="text-base text-teal-200 hover:text-white mr-4" href="/about">About</a>
                             <a className="text-base text-teal-200 hover:text-white mr-4" href="/support">Support</a>
                         </div>
