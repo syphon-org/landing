@@ -10,11 +10,11 @@ export default class Header extends Component {
             <nav id="header" class="fixed w-full z-30 top-0 gradient">
                 <div class="container flex flex-wrap items-center justify-between w-full mx-auto mt-0 px-2 py-4">
                     <a className="flex items-center flex-shrink-0 text-white">
-                        <div className="fill-current h-8 w-8 mr-2">
+                        <div className="fill-current h-12 w-12">
                             <img src={assets.iconAppWhite} />
                         </div>
-                        <span style={{ marginBottom: -4 }} className="text-2xl tracking-tight">
-                            Syphon
+                        <span style={{ marginLeft: 16, fontFamily: 'Rubik-Light', letterSpacing: 0.5, fontSize: 32 }} className="text-2xl tracking-tight">
+                            syphon
                         </span>
                     </a>
                     <div className="block lg:hidden">

@@ -26,7 +26,7 @@ h1{
     font-family: Rubik;
 }
 
-.header-gradient {
-    background: linear-gradient(90deg, rgba(52, 199, 181, 1) 20%, rgba(52, 199, 181, 1) 100%);
+.h-gradient {
+    background: linear-gradient(90deg, rgba(52, 199, 181, 1) 0%, rgba(52, 199, 181, 0.8) 100%);
 }
  
