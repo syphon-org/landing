@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-color-brand {
+.bg-brand {
     background-color:rgba(52, 199, 181, 1)
 }
 
