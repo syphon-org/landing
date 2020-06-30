@@ -1,34 +1,37 @@
 import Link from 'next/link'
 
-// Data
-// import thingsJson from '../public/static/all-things.json';
-
 // Components
 import Header from '../../components/header';
-import HeaderBloated from '../../components/header-bloated';
 import SectionWaves from '../../components/section-waves';
+
+import assets from '../../global/assets';
 
 function Main({ things }) {
     return (
         <div className="app sans-serif">
-            <HeaderBloated />
+            <Header />
             <div class="pt-24">
-                <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+                <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row justify-between items-center">
                     <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
                         <h1 class="my-4 text-5xl font-bold leading-tight">chat with your privacy and freedom intact</h1>
                         {/* <h1 class="my-4 text-5xl font-bold leading-tight">privacy focused chat that anyone can use</h1> */}
                         <p class="leading-normal text-2xl mb-8">a non-profit, open source matrix client with a focus on privacy and ease of use</p>
-                        <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Subscribe</button>
+                        <div style={{ marginLeft: -16 }}>
+                            <a href='https://play.google.com/store/apps/details?id=org.tether.tether'>
+                                <img height="80px" style={{ maxWidth: 210 }} alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' />
+                            </a>
+                        </div>
                     </div>
-                    <div class="w-full md:w-3/5 py-6 text-center">
-                        <img class="w-full md:w-4/5 z-50" src="images/hero.png" />
+                    <div class="w-3/6 py-6 text-center">
+                        <img class="ml-8 my-16 z-50" src={assets.undrawMobileUser} />
+                        {/* <img class="w-full md:w-4/5 z-50" src="images/hero.png" /> */}
                     </div>
                 </div>
             </div>
             <SectionWaves />
             <section class="bg-white border-b py-8">
                 <div class="container max-w-5xl mx-auto m-8">
-                    <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Title</h1>
+                    <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">features</h1>
                     <div class="w-full mb-4">
                         <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
                     </div>

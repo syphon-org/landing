@@ -14,7 +14,6 @@
     padding-top: 10vh;
 }
 
-
 span {
     font-family: Rubik;
 }
@@ -26,3 +25,8 @@ p {
 h1{
     font-family: Rubik;
 }
+
+.header-gradient {
+    background: linear-gradient(90deg, rgba(52, 199, 181, 1) 20%, rgba(52, 199, 181, 1) 100%);
+}
+ 

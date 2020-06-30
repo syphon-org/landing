@@ -10,19 +10,23 @@
     color: rgba(52, 199, 181, 1)
 }
 
-.app-padding {
-    padding-top: 10vh;
+.app {
+    height: 100vh;
 }
 
+.splash {
+    height: 100vh;
+}
 
 span {
     font-family: Rubik;
 }
 
-p {
-    font-family: Rubik; 
+.app-padding {
+    padding-top: 10vh;
 }
 
-h1{
-    font-family: Rubik;
+.gradient {
+    background: linear-gradient(90deg, rgba(52, 199, 181, 1) 20%, rgba(52, 199, 181, 0.8) 100%);
 }
+ 
