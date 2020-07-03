@@ -34,8 +34,8 @@ function Main({ things }) {
                             </div>
                         </div>
                     </div>
-                    <div class="md:w-3/6 sm:px-6 md:px-0  mt-24 text-center">
-                        <img class="ml-8 " src={assets.undrawMobileUser} />
+                    <div class="md:w-3/6 sm:px-6 md:px-0 mt-24 text-center">
+                        <img src={assets.undrawMobileUser} />
                     </div>
                     <div class="flex flex-row justify-center items-center pt-4 pb-24 mb-12">
                         <span>
@@ -56,34 +56,33 @@ function Main({ things }) {
                         <div class="w-5/6 sm:w-1/2 p-6">
                             <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">chat with matrix</h3>
                             <p class="text-gray-600 mb-8">syphon works by using an encrypted and decentralized capable protocol called <b>Matrix</b></p>
-                            <br /><br />
                         </div>
                         <div class="w-full sm:w-2/5 p-6">
                             <div class="w-full sm:h-64 mx-auto" viewBox="0 0 1177 598.5">
                                 <img src={assets.undrawMessagingFun} />
                             </div>
-
                         </div>
                     </div>
+                    <br />
                     <div class="flex flex-wrap flex-col-reverse sm:flex-row lg:mt-16">
-                        <div class="w-full sm:w-1/2 p-6 mt-6">
+                        <div class="w-full sm:w-1/2 p-6 mb-6">
                             <div class="w-5/6 sm:h-64 mx-auto" viewBox="0 0 1176.60617 873.97852" >
                                 <img src={assets.undrawConnection} />
                             </div>
                         </div>
-                        <div class="w-full sm:w-1/2 p-6 mt-6">
+                        <div class="w-full sm:w-1/2 p-6 mb-6">
                             <div class="align-middle">
                                 <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">end to end encrypted*</h3>
-                                <p class="text-gray-600 mb-8">syphon uses the olm/megolm encryption library provided by Matrix to keep your chats private from others<br></br>*currently only works for direct or one-on-one chats
-                                <br /><br />
+                                <p class="text-gray-600 mb-8">
+                                    syphon uses the olm/megolm encryption library provided by Matrix to keep your chats private from others<br></br>*currently only works for direct or one-on-one chats
                                 </p>
                             </div>
                         </div>
                         <div class="flex flex-wrap lg:mt-16">
                             <div class="w-5/6 sm:w-1/2 p-6">
                                 <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">customize it</h3>
-                                <p class="text-gray-600 mb-8">pick colors, themes, and eventually different widgets throughout the app according to your preference
-                            <br /><br />
+                                <p class="text-gray-600 mb-8">
+                                    pick colors, themes, and eventually different widgets throughout the app according to your preference
                                 </p>
                             </div>
                             <div class="w-full sm:w-2/5 p-6">
@@ -92,7 +91,6 @@ function Main({ things }) {
                                 </div>
                             </div>
                         </div>
-
                         <div class="flex flex-wrap flex-col-reverse sm:flex-row lg:mt-16">
                             <div class="w-full sm:w-2/5 p-6 mt-6">
                                 <div class="w-5/6 sm:h-64 mx-auto" viewBox="0 0 1176.60617 873.97852" >
@@ -103,7 +101,6 @@ function Main({ things }) {
                                 <div class="align-middle">
                                     <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">no analytics</h3>
                                     <p class="text-gray-600 mb-8">no analytics or tracking are present outside what matrix attempts to track on clients, but contact us at support@syphon.org if you need help
-                          <br /><br />
                                     </p>
                                 </div>
                             </div>
