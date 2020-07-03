@@ -4,7 +4,8 @@ import iconAppWhite from '../public/assets/icon_app_white.png'
 import iconSample from '../public/assets/icon_sample.svg'
 import iconSampleLanding from '../public/assets/icon_sample_landing.svg'
 import undrawMobileUser from '../public/images/undraw_mobile_user.svg'
-import appLogoFilled from '../public/images/app_logo_filled.svg';
+import appLogoOutlined from '../public/assets/logo/app_logo_outlined.svg';
+import appLogoFilled from '../public/assets/logo/app_logo_filled.svg';
 
 import undrawGroupChat from '../public/images/undraw_group_chat.svg';
 import undrawProfileData from '../public/images/undraw_profile_data.svg';
@@ -21,6 +22,7 @@ module.exports = {
     iconSampleLanding: iconSampleLanding,
     undrawMobileUser: undrawMobileUser,
     appLogoFilled: appLogoFilled,
+    appLogoOutlined: appLogoOutlined,
     undrawConnection: undrawConnection,
     undrawMessagingFun: undrawMessagingFun,
     undrawGroupChat: undrawGroupChat,

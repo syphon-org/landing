@@ -18,6 +18,8 @@ yarn-error.log
 
 .next
 
-out/_next/*
+out/_next/static/*
+out/_next/data/*
 
-!out/_next/css/
+!out/_next/static/css/
+!out/_next/static/images/

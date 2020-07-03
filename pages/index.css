@@ -35,20 +35,50 @@ span {
 }
    
   
-.menu {
-background: darkorange;
+.menu { 
     list-style: none;
     margin: 0;
     padding-left: 0;
+    cursor: pointer;  
 }
 
-.menu-item {
-    color: #fff;
-background: darkorange;
-    display: block;
-    float: left;
-    padding: 1rem;
-    position: relative;
-    text-decoration: none;
-transition-duration: 0.5s;
+input#menu {
+    display: none;
+} 
+
+@media only screen and (max-width: 768px) {
+    .menu label { 
+        font-size: 56px;
+        display: block;
+        padding: 10px 0 10px 50px;
+    }
+
+    .menu label:hover { 
+        font-size: 56px;
+        display: block;
+        padding: 10px 0 10px 50px;
+    }
+
+    .menu-content {
+        max-height: 0;
+        overflow: hidden;
+        font-family: 'Oswald', sans-serif; 
+        padding: 0 0 0 50px;
+    }
+
+    /* Toggle Effect */
+    input:checked ~ label {  
+        background-color: white;  
+        color: teal;
+    }
+
+    input:checked ~ label:hover {  
+        background-color: white; 
+        color: teal;
+    }
+
+    input:checked ~ .menu-content {
+        max-height: 100%;
+    }
 }
+ 
