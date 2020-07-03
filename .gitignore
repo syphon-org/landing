@@ -18,4 +18,6 @@ yarn-error.log
 
 .next
 
-#out/
+out/_next/*
+
+!out/_next/css/

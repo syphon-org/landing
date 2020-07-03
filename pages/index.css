@@ -29,4 +29,26 @@ span {
 .gradient {
     background: linear-gradient(90deg, rgba(52, 199, 181, 1) 20%, rgba(52, 199, 181, 0.8) 100%);
 }
- 
+
+.header {
+    background: linear-gradient(90deg, rgba(52, 199, 181, 1) 0%, rgba(52, 199, 181, 0.8) 100%);
+}
+   
+  
+.menu {
+background: darkorange;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.menu-item {
+    color: #fff;
+background: darkorange;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+transition-duration: 0.5s;
+}
