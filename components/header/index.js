@@ -18,10 +18,10 @@ export default class Header extends Component {
                     <label for="menu" class="flex items-center px-4 py-1 border text-md md:hidden rounded text-white border-teal-100 menu-label hover:border-transparent hover:text-teal-500 hover:bg-white">Menu</label>
                     <div class="w-full justify-end flex flex-wrap md:items-center md:w-auto menu-content">
                         <div class="text-md text-right items-center md:flex-grow">
-                            <a href="#responsive-header" class="block  mt-4 md:mt-0 md:mr-4 text-teal-200 hover:text-white md:inline-block  ">
+                            <a href="#responsive-header" class="block  mt-4 md:mt-0 md:mr-4 text-white hover:text-teal-200 md:inline-block  ">
                                 About
                             </a>
-                            <a href="/support" class="block mt-4 md:mt-0 md:mr-4 text-teal-200 hover:text-white md:inline-block ">
+                            <a href="/support" class="block mt-4 md:mt-0 md:mr-4 text-white hover:text-teal-200 md:inline-block ">
                                 Support
                             </a>
                             <a href="https://github.com/syphon-org/syphon/releases"
