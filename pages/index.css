@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
+
+/* Start purging... */
 @tailwind utilities;
+/* Stop purging. */
+
 
 .bg-color-brand {
     background-color:rgba(52, 199, 181, 1)
@@ -20,6 +24,10 @@
 
 span {
     font-family: Rubik;
+}
+
+.rubik {
+    font-family: Rubik;   
 }
 
 .app-padding {
