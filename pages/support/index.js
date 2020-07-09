@@ -18,7 +18,7 @@ function Support() {
                             need help?
                         </span>
                         <a href='mailto:$supportEmail?subject=Syphon%20App%20Help&body=Leave%20your%20feedback%20or%20question%20here' class="text-4xl mx-2" style={{ cursor: 'pointer', letterSpacing: '0.5', textDecorationLine: 'underline' }}>email us</a>
-                        <div>at help@syphon.org</div>
+                        <div>at support@syphon.org</div>
                     </div>
                 </div>
             </div>

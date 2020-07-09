@@ -9,7 +9,7 @@ import Footer from 'components/footer';
 
 function Main({ things }) {
     return (
-        <div className="app sans-serif">
+        <div className="app sans-serif gradient">
             <Header />
             <section class="pt-32">
                 <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row justify-between items-center">
