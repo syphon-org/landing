@@ -48,16 +48,16 @@ function Main() {
                                             chat protocol, <a class="underline" href="https://matrix.org/blog/2020/06/02/introducing-p-2-p-matrix">and in a way already is</a>,
                                             that will allow people to communicate and transfer their data at will.
                                             <br /><br />
-                                            Since starting on this project, <b>the Riot teams have started making strides at unifying their branding</b> and user experience.
-                                            If Riot rebrands well, and focused on all the same features that Syphon originally set out to impliement,
-                                            Riot (the new one) will likely be the client you should use to access Matrix for the time being. This was out of my belief that
-                                            Matrix was ready, it just didn't seem like Riot was at the time.
-                                             <br /><br />
                                             Additionally, if the goal for Matrix is adoption to make instant messaging communication go the way of email,
                                             a network effect is required for this paradigm shift. Syphon makes the bet
                                             that the best way to attract new users is through strong branding and user experience.
                                             I hope that contributing and maintaining Syphon will help kick start this process and help those in need.
                                             <br /><br />
+                                            Since starting on this project, <b>the Riot teams have started making strides at unifying their branding</b> and user experience.
+                                            If Riot rebrands well, and focused on all the same features that Syphon originally set out to impliement,
+                                            Riot (the new one) will likely be the client you should use to access Matrix for the time being. This was out of my belief that
+                                            Matrix was ready, it just didn't seem like Riot was at the time.
+                                             <br /><br />
                                             Syphon will always be a not for profit, community driven application.
                                         </p>
                                 </div>
