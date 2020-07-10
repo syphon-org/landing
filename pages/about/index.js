@@ -32,9 +32,9 @@ function Main() {
                                             For several years, the idea
                                              that we do not have an agreed upon protocol for instant messaging that is easy to use and open
                                              has kept me up at night. Email (SMTP, IMAP, POP3) has worked this way for a long time.
-                                             The protocol has not stopped its centralization, in fact Emails popularity arguably because of both the protocol and its centralization.
+                                             The protocol has not stopped its centralization, in fact email is widely adopted arguably because of both the protocol and its centralization.
                                              One of the reasons Signal discusses how for mass adoption centralization will only help. But if I want to host my own mail server,
-                                             or more to a more trustworthy Email provider, I am not worried. There's a breadth of options. You cannot host your own signal server and chat with those running on normal Signal.
+                                             or more to a more trustworthy email provider, I am not worried. There's a breadth of options. You cannot host your own signal server and chat with those running on normal Signal.
                                              It's not a protocol in that way.
                                             <br /><br />
                                              At the time, I saw countless posts on reddit where users stated they wanted to switch to Matrix
