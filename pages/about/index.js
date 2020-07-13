@@ -27,14 +27,14 @@ function Main() {
                                              users that if you're using the default keyboard on an Android device, that all your message content
                                               is likely already been saved by a keylogger. I thought even if Signal could display some sort of warning,
                                               how long would it take for that to get implemented everywhere and approved? Are quick community driven
-                                              changes like this a priority?
+                                              changes like this a priority? A project needed to fill this void.
                                             <br /><br />
                                             For several years, the idea
-                                             that we do not have an agreed upon protocol for instant messaging that is easy to use and open
-                                             has kept me up at night. Email (SMTP, IMAP, POP3) has worked this way for a long time.
-                                             The protocol has not stopped its centralization, in fact email is widely adopted arguably because of both the protocol and its centralization.
-                                             One of the reasons Signal discusses how for mass adoption centralization will only help. But if I want to host my own mail server,
-                                             or more to a more trustworthy email provider, I am not worried. There's a breadth of options. You cannot host your own signal server and chat with those running on normal Signal.
+                                             that we do not have an agreed upon protocol for instant messaging kept me up at night. Email (SMTP, IMAP, POP3) has worked this way for a long time.
+                                             The protocol has not stopped its centralization, email is widely adopted arguably because of its centralization.
+                                             One of the reasons Signals creator Moxie Marlinspike discusses how for mass adoption centralization will only help. But if I want to host my own mail server,
+                                             or switch to a more trustworthy email provider, I am not worried. There's a breadth of options. It's relatively speaking much harder to host
+                                             your own signal server and chat with those using Signal.
                                              It's not a protocol in that way.
                                             <br /><br />
                                              At the time, I saw countless posts on reddit where users stated they wanted to switch to Matrix
