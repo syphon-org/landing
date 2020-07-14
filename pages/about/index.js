@@ -23,7 +23,7 @@ function Main() {
                                             in an effort to pull others away from proprietary chat clients to the matrix protocol.
                                             <br /><br />
                                              My name is Taylor and I'm creator of Syphon. This all started late 2019 when I saw a twitter
-                                             thread regarding the riots in Hong Kong. At the time, the user was frustrated Signal didn't warn
+                                             thread regarding the protests in Hong Kong. At the time, the user was frustrated Signal didn't warn
                                              users that if you're using the default keyboard on an Android device, that all your message content
                                               is likely already been saved by a keylogger. I thought even if Signal could display some sort of warning,
                                               how long would it take for that to get implemented everywhere and approved? Are quick community driven
