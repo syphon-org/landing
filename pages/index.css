@@ -22,12 +22,17 @@
     height: 100vh;
 }
 
-span {
+@font-face{
     font-family: Rubik;
+    src: url('/fonts/Rubik-Regular.ttf');
+}
+
+span {
+    font-family: Rubik, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .rubik {
-    font-family: Rubik;   
+    font-family: Rubik, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";  
 }
 
 .app-padding {
