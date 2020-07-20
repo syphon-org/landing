@@ -29,6 +29,7 @@ class MyDocument extends Document {
                         crossOrigin=""
                     />
                     <link rel="shortcut icon" href="favicon.ico" />
+                    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 </Head>
                 <body class="leading-normal tracking-normal text-white gradient">
                     <Main />

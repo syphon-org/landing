@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Head from 'next/head'
 
 // Components 
 import assets from '../../global/assets';
@@ -6,6 +7,9 @@ import assets from '../../global/assets';
 function Main() {
     return (
         <div className="app sans-serif">
+            <Head>
+                <title>Syphon • A privacy centric matrix client</title>
+            </Head>
             <div class="splash flex flex-grow flex-col justify-center items-center">
                 <div class="flex-col justify-center items-center text-center">
                     <div class="flex-row justify-center items-center text-center">

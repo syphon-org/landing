@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Head from 'next/head'
 
 // Components  
 import Header from 'components/header';
@@ -10,6 +11,9 @@ import Footer from 'components/footer';
 function Main() {
     return (
         <div className="app sans-serif bg-white">
+            <Head>
+                <title>Syphon • About</title>
+            </Head>
             <Header />
             <section class="pt-32 bg-white">
                 <div style={{ paddingBottom: 1000 }} class="container bg-white px-3 mx-auto flex flex-wrap flex-col md:flex-row justify-between items-center">
