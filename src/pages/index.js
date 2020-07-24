@@ -2,10 +2,10 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 // Components
-import Header from '../components/header';
-import SectionWaves from '../components/section-waves';
+import Header from 'components/header';
+import SectionWaves from 'components/section-waves';
 
-import assets from '../global/assets';
+import assets from 'global/assets';
 import Footer from 'components/footer';
 
 function Main({ things }) {
