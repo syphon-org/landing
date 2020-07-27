@@ -8,15 +8,15 @@ import SectionWaves from 'components/section-waves';
 import assets from 'global/assets';
 import Footer from 'components/footer';
 
-function Main({ things }) {
+function Main() {
     return (
         <div className="app sans-serif gradient">
             <Head>
                 <title>Syphon • A privacy centric matrix client</title>
                 <meta name="description" content="A privacy centric matrix client" />
-                <meta property="og:title" content="Syphon" />
-                <meta property="og:image" content="/android-chrome-512x512.png" />
-                <meta property="og:description" content="A privacy centric matrix client - not for profit, open source chat client with a focus on privacy and ease of use" />
+                <meta property="og:title" content="Syphon • A privacy centric matrix client" />
+                <meta property="og:image" content="/assets/app_logo_outlined.svg" />
+                <meta property="og:description" content="An open source, not for profit chat client with a focus on privacy and ease of use" />
             </Head>
             <Header />
             <section class="pt-32">

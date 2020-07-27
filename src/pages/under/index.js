@@ -4,7 +4,7 @@ import Head from 'next/head'
 // Components 
 import assets from '../../global/assets';
 
-function Main() {
+function Main({ props }) {
     return (
         <div className="app sans-serif">
             <Head>
