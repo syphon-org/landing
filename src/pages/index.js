@@ -15,8 +15,8 @@ function Main() {
                 <title>Syphon • A privacy centric matrix client</title>
                 <meta name="description" content="A privacy centric matrix client" />
                 <meta property="og:title" content="Syphon • A privacy centric matrix client" />
-                {/* <meta property="og:image" content="https://syphon.org/app_logo.svg" /> */}
-                <meta property="og:image" content="/app_logo.png" />
+                {/* <meta property="og:image" content="/android-chrome-512x512.png" /> */}
+                <meta property="og:image" content="/app-logo.png" />
                 <meta property="og:description" content="An open source, not for profit chat client with a focus on privacy and ease of use" />
             </Head>
             <Header />
