@@ -13,10 +13,6 @@ function Main() {
         <div className="app sans-serif gradient">
             <Head>
                 <title>Syphon • A privacy centric matrix client</title>
-                <meta name="description" content="A privacy centric matrix client" />
-                <meta property="og:title" content="Syphon • A privacy centric matrix client" />
-                <meta property="og:image" content="/assets/app_logo_outlined.svg" />
-                <meta property="og:description" content="An open source, not for profit chat client with a focus on privacy and ease of use" />
             </Head>
             <Header />
             <section class="pt-32">
