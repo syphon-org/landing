@@ -32,10 +32,6 @@ class MyDocument extends Document {
                     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                     <meta name="mobile-web-app-capable" content="yes" />
                     <meta name="apple-mobile-web-app-capable" content="yes" />
-                    <meta name="description" content="A privacy centric matrix client" />
-                    <meta property="og:title" content="Syphon • A privacy centric matrix client" />
-                    <meta property="og:image" content="https://syphon.org/app_logo.svg" />
-                    <meta property="og:description" content="An open source, not for profit chat client with a focus on privacy and ease of use" />
                 </Head>
                 <body class="leading-normal tracking-normal text-white gradient">
                     <Main />
