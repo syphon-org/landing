@@ -10,9 +10,9 @@ export default class Header extends Component {
     render() {
         return (
             <nav id="header" className="fixed w-full z-30 top-0 header">
-                <div class="container flex flex-wrap items-center justify-between mx-auto mt-0 px-6 py-6">
-                    <a href="/#" style={{ cursor: 'pointer', height: 52, width: 188 }} className="h-12 w-90">
-                        <img src={assets.appLogoOutlined} />
+                <div class="container flex flex-wrap items-center justify-between mx-auto mt-0 px-6 py-5">
+                    <a href="/#" style={{ cursor: 'pointer', height: 48, width: 188 }} className="h-12 w-90">
+                        <img src={assets.appLogo} />
                     </a>
                     <input id="menu" type='checkbox' class="menu" />
                     <label for="menu" class="flex items-center px-4 py-1 border text-md md:hidden rounded text-white border-teal-100 menu-label hover:border-transparent hover:text-teal-500 hover:bg-white">Menu</label>
