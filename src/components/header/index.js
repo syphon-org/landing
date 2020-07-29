@@ -10,7 +10,7 @@ export default class Header extends Component {
     render() {
         return (
             <nav id="header" className="fixed w-full z-30 top-0 header">
-                <div class="container flex flex-wrap items-center justify-between mx-auto mt-0 px-2 py-4">
+                <div class="container flex flex-wrap items-center justify-between mx-auto mt-0 px-6 py-6">
                     <a href="/#" style={{ cursor: 'pointer', height: 52, width: 188 }} className="h-12 w-90">
                         <img src={assets.appLogoOutlined} />
                     </a>
