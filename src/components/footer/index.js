@@ -70,11 +70,9 @@ export default class Footer extends Component {
         </div>
 
         <div class="credits justify-center flex" style={{ paddingBottom: 16, }}>
-          <span class="text-white" style={{ paddingLeft: 12 }}>Copyright © 2020 Taylor Ereio</span>
+          <span class="text-white" style={{ paddingLeft: 12 }}>Copywrite © 2020 Taylor Ereio - Syphon™️</span>
         </div>
         <div class="credits justify-center flex">
-          <a href="https://www.freepik.com/free-photos-vectors/background" class="text-white-500 underline">Background vector created by freepik - www.freepik.com</a>
-          <span class="text-white" style={{ paddingLeft: 12 }}>Images from: <a class="text-white-500 underline" href="https://undraw.co/">undraw.co</a></span>
         </div>
       </footer>
     )

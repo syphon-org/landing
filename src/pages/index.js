@@ -68,7 +68,7 @@ function Main() {
           <div class="flex flex-wrap lg:mt-16">
             <div class="w-5/6 sm:w-1/2 p-6">
               <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">chat with matrix</h3>
-              <p class="text-gray-600 mb-8">syphon works by using an encrypted and decentralized capable protocol called <b>Matrix</b></p>
+              <p class="text-gray-600 mb-8">Syphon™️ works by using an encrypted and decentralized capable protocol called <b>Matrix</b></p>
             </div>
             <div class="w-full sm:w-2/5 p-6">
               <div class="w-full sm:h-64 mx-auto" viewBox="0 0 1177 598.5">
@@ -87,7 +87,7 @@ function Main() {
               <div class="align-middle">
                 <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">end to end encrypted</h3>
                 <p class="text-gray-600 mb-8">
-                  syphon uses the olm/megolm encryption library provided by Matrix to keep your chats private from others
+                  Syphon™️ uses the olm/megolm encryption library provided by Matrix to keep your chats private from others
                 </p>
               </div>
             </div>
@@ -113,8 +113,8 @@ function Main() {
               <div class="w-full sm:w-1/2 p-6 mt-6">
                 <div class="align-middle">
                   <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">no analytics</h3>
-                  <p class="text-gray-600 mb-8">no analytics or tracking are present outside what matrix attempts to track on clients, but contact us at support@syphon.org if you need help
-                                    </p>
+                  <p class="text-gray-600 mb-8">no analytics or tracking are present outside what matrix attempts to track on clients, but get help by emailing <a href="mailto:support@syphon.org">support@syphon.org</a>
+                  </p>
                 </div>
               </div>
             </div>
