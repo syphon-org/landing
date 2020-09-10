@@ -13,8 +13,9 @@ export default class Footer extends Component {
           <div class="w-full flex flex-col md:flex-row py-6">
 
             <div class="flex-1 justify-content mb-6">
-              <a class="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
-                <img src={assets.appLogoFilled} class="h-8 fill-current inline" />
+              <a class="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl flex flex-row" href="#">
+                <img src={assets.appLogoWhite} class="h-10 fill-current inline" />
+                <span class={"text-white text-sm mb-8 pl-1"}>®</span>
               </a>
             </div>
 
@@ -69,11 +70,11 @@ export default class Footer extends Component {
           </div>
         </div>
 
-        <div class="credits justify-center flex" style={{ paddingBottom: 16, }}>
-          <span class="text-white" style={{ paddingLeft: 12 }}>Copywrite © 2020 Taylor Ereio - Syphon™️</span>
+        <div class="credits justify-center flex flex-col items-center" style={{ paddingBottom: 16, }}>
+          <span class="text-white">Copywrite © 2020 Taylor Ereio</span>
+          <span class="text-white">Syphon ® is a registered trademark</span>
         </div>
-        <div class="credits justify-center flex">
-        </div>
+        <div class="credits justify-center flex" />
       </footer>
     )
   }
