@@ -32,7 +32,7 @@ class MyDocument extends Document {
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <meta name="mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
-          <meta property="og:image" content="/app-logo.png" />
+          <meta property="og:image" content="app-logo.png" />
         </Head>
         <body class="leading-normal tracking-normal text-white gradient">
           <Main />
