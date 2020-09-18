@@ -66,7 +66,7 @@ function Main() {
           <div class="flex flex-wrap lg:mt-16">
             <div class="w-5/6 sm:w-1/2 p-6">
               <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">chat with matrix</h3>
-              <p class="text-gray-600 mb-8">Syphon™️ works by using an encrypted and decentralized capable protocol called <b>Matrix</b></p>
+              <p class="text-gray-600 mb-8">Syphon works by using an encrypted and decentralized capable protocol called <b>Matrix</b></p>
             </div>
             <div class="w-full sm:w-2/5 p-6">
               <div class="w-full sm:h-64 mx-auto" viewBox="0 0 1177 598.5">
@@ -85,7 +85,7 @@ function Main() {
               <div class="align-middle">
                 <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">end to end encrypted</h3>
                 <p class="text-gray-600 mb-8">
-                  Syphon™️ uses the olm/megolm encryption library provided by Matrix to keep your chats private from others
+                  Syphon uses the olm/megolm encryption library provided by Matrix to keep your chats private from others
                 </p>
               </div>
             </div>

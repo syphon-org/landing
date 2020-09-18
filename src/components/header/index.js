@@ -13,6 +13,7 @@ export default class Header extends Component {
         <div class="container flex flex-wrap items-center justify-between mx-auto mt-0 px-6 py-5">
           <a href="/#" style={{ cursor: 'pointer', height: 50, width: 204 }} className="h-12 w-90 flex flex-row">
             <img src={assets.appLogoWhite} />
+            <span class={"text-white text-sm mb-8 pl-1"}>®</span>
           </a>
           <input id="menu" type='checkbox' class="menu" />
           <label for="menu" class="flex items-center px-4 py-1 border-2 text-xl md:hidden rounded text-white border-teal-100 menu-label hover:border-transparent hover:text-teal-500 hover:bg-white">
