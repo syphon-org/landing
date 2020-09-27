@@ -30,6 +30,9 @@ export default class Header extends Component {
               <a href="https://github.com/syphon-org/syphon/" class="block text-xl mt-4 md:mt-0 md:mr-6 text-white hover:text-teal-200 md:inline-block ">
                 Github
               </a>
+              <a class="block text-xl mt-4 md:mt-0 md:mr-6 text-teal-200 md:inline-block ">
+                Store (coming soon)
+              </a>
               <a href="https://github.com/syphon-org/syphon/releases"
                 class="inline-block text-xl px-4 py-2 mt-4 sm:mt-0 rounded-full leading-none border-2 text-white font-medium border-white hover:border-transparent hover:text-teal-500 hover:bg-white">
                 Download

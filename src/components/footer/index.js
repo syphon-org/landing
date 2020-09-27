@@ -71,7 +71,7 @@ export default class Footer extends Component {
         </div>
 
         <div class="credits justify-center flex flex-col items-center" style={{ paddingBottom: 16, }}>
-          <span class="text-white">Copywrite © 2020 Taylor Ereio</span>
+          <span class="text-white">Copyright © 2020 Ereio, LLC</span>
           <span class="text-white">Syphon ® is a registered trademark</span>
         </div>
         <div class="credits justify-center flex" />

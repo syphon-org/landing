@@ -181,19 +181,19 @@ function Main() {
         <div class="w-full my-8">
           <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
-        <div class="flex flex-row flex-wrap justify-center items-center">
-          <a class="shadow mx-8 my-4" href="https://patreon.com/ereio">
+        <div class="flex flex-row flex-wrap text-center justify-center items-center">
+          <a class="shadow mx-4 my-4" href="https://patreon.com/ereio">
             <img class="h-16" alt="Patreon" src='assets/external/patreon.png' />
           </a>
-          <a class="shadow mx-8 my-4" href="https://liberapay.com/ereio">
+          <a class="shadow mx-4 my-4" href="https://liberapay.com/ereio">
             <img class="h-16" alt="Libera Pay" src='assets/external/fund-via-liberapay.png' />
           </a>
-          <a class="flex flex-row justify-start items-center shadow mx-8 my-4" href="https://etherscan.io/address/0xE565D0f3ab559b4Cd166c26893AeC4418F1A6EF5"
+          <a class="flex flex-row justify-start items-center shadow mx-4 my-4" href="https://etherscan.io/address/0xE565D0f3ab559b4Cd166c26893AeC4418F1A6EF5"
             style={{ backgroundColor: '#497391', width: '272px' }}>
             <img class="h-16 mr-4" alt="Patreon" src='assets/external/eth-material.svg' />
             <span class="rubik text-xl">Donate Etherem</span>
           </a>
-          <a class="flex flex-row justify-start items-center shadow mx-8 my-4" href="https://www.blockchain.com/btc/address/bc1qqypclrq2jmtedjylacqepr7s06w59dsqg050w2"
+          <a class="flex flex-row justify-start items-center shadow mx-4 my-4" href="https://www.blockchain.com/btc/address/bc1qqypclrq2jmtedjylacqepr7s06w59dsqg050w2"
             style={{ backgroundColor: '#F7931A', width: '272px' }}>
             <img class="h-16 mr-4" alt="Patreon" src='assets/external/btc-material.svg' />
             <span class="rubik text-xl">Donate Bitcoin</span>
