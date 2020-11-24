@@ -97,7 +97,7 @@ function Main() {
               <div className="align-middle">
                 <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">end to end encrypted</h3>
                 <p className="text-gray-600 mb-8">
-                  Using the open-source Olm/Megolm encryption library provided by Matrix, your chats private from others
+                  using the open-source Olm/Megolm encryption library provided by Matrix, your chats are privately sent and stored
                 </p>
               </div>
             </div>
@@ -124,8 +124,8 @@ function Main() {
                 <div className="align-middle">
                   <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">no analytics</h3>
                   <p className="text-gray-600 mb-8">
-                    no analytics or tracking are present outside what matrix attempts to track on clients, but get help by emailing
-                    <a href="mailto:support@syphon.org">support@syphon.org</a>
+                    no analytics or tracking are present in Syphon. Metadata normally sent using the Matrix network is minimized. Feel free to email
+                    <a href="mailto:support@syphon.org">{' support@syphon.org '}</a> for more info.
                   </p>
                 </div>
               </div>
