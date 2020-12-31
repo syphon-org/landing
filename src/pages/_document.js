@@ -4,8 +4,9 @@ import Document, {
 
 class HeadProduction extends Head {
   render() {
-    const { head } = this.context._documentProps;
+    const { head } = this.context;
     const { children } = this.props;
+
     return (
       <head {...this.props}>
         {children}
