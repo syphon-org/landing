@@ -1,3 +1,5 @@
+/* eslint-disable max-classes-per-file */
+import React from 'react';
 import Document, {
   Html, Head, Main, NextScript,
 } from 'next/document';
@@ -15,20 +17,17 @@ class HeadProduction extends Head {
           rel="preload"
           href="/fonts/Rubik-Regular.ttf"
           as="Rubik"
-          crossOrigin=""
-        />
+          crossOrigin="" />
         <link
           rel="preload"
           href="/fonts/Rubik-Light.ttf"
           as="Rubik-Light"
-          crossOrigin=""
-        />
+          crossOrigin="" />
         <link
           rel="preload"
           href="/fonts/Rubik-Bold.ttf"
           as="Rubik-Bold"
-          crossOrigin=""
-        />
+          crossOrigin="" />
         <link rel="shortcut icon" href="favicon.ico" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="mobile-web-app-capable" content="yes" />
