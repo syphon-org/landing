@@ -60,7 +60,7 @@ function Main() {
           </div>
           <div className="flex flex-row justify-center items-center text-center pt-4 pb-24 mb-12">
             <span>
-              * syphon is still in Open Alpha and is not considered ready for everyday use
+              * Syphon is still in Open Alpha and is not considered ready for everyday use
             </span>
           </div>
         </div>
@@ -77,7 +77,8 @@ function Main() {
             <div className="w-5/6 sm:w-1/2 p-6">
               <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">chat with matrix</h3>
               <p className="text-gray-600 mb-8">
-                Syphon connects you to others using a decentralized and encrypted network called<a href="https://matrix.org"><b>{' Matrix'}</b></a>
+                Syphon connects you to others using a decentralized and encrypted network called
+                <a href="https://matrix.org"><b>{' Matrix'}</b></a>
               </p>
             </div>
             <div className="w-full sm:w-2/5 p-6">
@@ -125,7 +126,9 @@ function Main() {
                   <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">no analytics</h3>
                   <p className="text-gray-600 mb-8">
                     no analytics or tracking are present in Syphon. Metadata normally sent using the Matrix network is minimized. Feel free to email
-                    <a href="mailto:support@syphon.org">{' support@syphon.org '}</a> for more info.
+                    <a href="mailto:support@syphon.org">{' support@syphon.org '}</a>
+                    {' '}
+                    for more info.
                   </p>
                 </div>
               </div>
