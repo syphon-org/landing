@@ -4,7 +4,7 @@
   "scripts": {
     "start": "next dev",
     "build": "next build",
-    "build:prod": "NODE_ENV=production next build && next export",
+    "build:prod": "npm install && NODE_ENV=production next build && next export",
     "serve": "next start"
   },
   "dependencies": {
