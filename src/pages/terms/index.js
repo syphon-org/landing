@@ -1,9 +1,10 @@
-import Head from 'next/head';
+import React from 'react'
 
-// Components
-import Header from 'components/header';
+import Head from 'next/head'
 
-function Terms() {
+import { Header } from '../../components/header'
+
+export default function Terms() {
   return (
     <div className="app sans-serif bg-white">
       <Head>
@@ -11,7 +12,9 @@ function Terms() {
       </Head>
       <Header />
       <section className="pt-32 bg-white">
-        <div style={{ paddingBottom: 1000 }} className="container bg-white px-3 mx-auto flex flex-wrap flex-col md:flex-row justify-between items-center">
+        <div
+          style={{ paddingBottom: 1000 }}
+          className="container bg-white px-3 mx-auto flex flex-wrap flex-col md:flex-row justify-between items-center">
           <div className="bg-white pt-8">
             <section className="container bg-white text-black max-w-5xl mx-auto ">
               <div className="splash flex flex-grow flex-col justify-start items-center bg-white">
@@ -30,7 +33,7 @@ function Terms() {
                       database rights and other intellectual property rights related
                       to it, still belong to taylor ereio.
                     </p>
-                    {' '}
+
                     <p>
                       taylor ereio is committed to ensuring that the app is
                       as useful and efficient as possible. For that reason, we
@@ -39,7 +42,7 @@ function Terms() {
                       charge you for the app or its services without making it very
                       clear to you exactly what you’re paying for.
                     </p>
-                    {' '}
+
                     <p>
                       The Syphon app stores and processes personal data that
                       you have provided to us, in order to provide my
@@ -52,7 +55,7 @@ function Terms() {
                       compromise your phone’s security features and it could mean
                       that the Syphon app won’t work properly or at all.
                     </p>
-                    {' '}
+
                     <p>
                       You should be aware that there are certain things that
                       taylor ereio will not take responsibility for. Certain
@@ -63,9 +66,9 @@ function Terms() {
                       functionality if you don’t have access to Wi-Fi, and you don’t
                       have any of your data allowance left.
                     </p>
-                    {' '}
+
                     <p />
-                    {' '}
+
                     <p>
                       If you’re using the app outside of an area with Wi-Fi, you
                       should remember that your terms of the agreement with your
@@ -80,7 +83,7 @@ function Terms() {
                       using the app, please be aware that we assume that you have
                       received permission from the bill payer for using the app.
                     </p>
-                    {' '}
+
                     <p>
                       Along the same lines, taylor ereio cannot always take
                       responsibility for the way you use the app i.e. You need to
@@ -88,7 +91,7 @@ function Terms() {
                       battery and you can’t turn it on to avail the Service,
                       taylor ereio cannot accept responsibility.
                     </p>
-                    {' '}
+
                     <p>
                       With respect to taylor ereio’s responsibility for your
                       use of the app, when you’re using the app, it’s important to
@@ -99,7 +102,7 @@ function Terms() {
                       loss, direct or indirect, you experience as a result of
                       relying wholly on this functionality of the app.
                     </p>
-                    {' '}
+
                     <p>
                       At some point, we may wish to update the app. The app is
                       currently available on Android &amp; iOS – the requirements for
@@ -118,9 +121,9 @@ function Terms() {
                       (b) you must stop using the app, and (if needed) delete it
                       from your device.
                     </p>
-                    {' '}
+
                     <p><strong>Changes to This Terms and Conditions</strong></p>
-                    {' '}
+
                     <p>
                       I may update our Terms and Conditions
                       from time to time. Thus, you are advised to review this page
@@ -128,22 +131,25 @@ function Terms() {
                       notify you of any changes by posting the new Terms and
                       Conditions on this page.
                     </p>
-                    {' '}
+
                     <p>
                       These terms and conditions are effective as of 2020-06-28
                     </p>
-                    {' '}
+
                     <p><strong>Contact Us</strong></p>
-                    {' '}
+
                     <p>
                       If you have any questions or suggestions about my
                       Terms and Conditions, do not hesitate to contact me
                       at contact@syphon.org.
                     </p>
-                    {' '}
+
                     <p>
                       This Terms and Conditions page was generated by
-                      <a href="https://app-privacy-policy-generator.firebaseapp.com/" target="_blank" rel="noopener noreferrer">App Privacy Policy Generator</a>
+                      <a
+                        href="https://app-privacy-policy-generator.firebaseapp.com/"
+                        target="_blank"
+                        rel="noopener noreferrer">App Privacy Policy Generator</a>
                     </p>
                   </div>
                 </div>
@@ -153,7 +159,5 @@ function Terms() {
         </div>
       </section>
     </div>
-  );
+  )
 }
-
-export default Terms;

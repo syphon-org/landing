@@ -1,3 +1,3 @@
 module.exports = {
-    primary: '#34C7B5',
+  primary: '#34C7B5',
 }

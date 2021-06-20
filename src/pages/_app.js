@@ -1,9 +1,8 @@
-import './index.css';
+import React from 'react'
 
-import assets from '../global/assets';
+import './index.css'
 
-function App({ Component, pageProps }) {
-    return <Component {...pageProps} />;
+export default function App({ Component, pageProps }) {
+  return <Component {...pageProps} />
 }
 
-export default App;

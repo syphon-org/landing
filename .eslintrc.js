@@ -1,11 +1,12 @@
 module.exports = {
+  root: true,
   env: {
     browser: true,
     es6: true,
+    es2020: true,
   },
   extends: [
     'plugin:react/recommended',
-    'airbnb',
   ],
   globals: {
     Atomics: 'readonly',
@@ -23,35 +24,43 @@ module.exports = {
   ],
   rules: {
     // eslints
-    indent: ['warn', 2, { SwitchCase: 1 }],
-    'arrow-parens': ['warn', 'always'],
-    semi: ['warn', 'always'],
-    quotes: ['warn', 'single'],
-    'max-len': ['warn', {
-      code: 120, tabWidth: 2, ignoreUrls: true, ignoreStrings: true, ignoreTrailingComments: true,
+    'indent': ['error', 2],
+    'arrow-parens': ['error', 'always'],
+    'semi': ['error', 'never'],
+    'quotes': ['error', 'single'],
+    'max-len': ['error', {
+      code: 140, tabWidth: 2, ignoreUrls: true, ignoreStrings: true, ignoreTrailingComments: true
     }],
-    'comma-dangle': ['warn', 'only-multiline'],
-    'object-curly-spacing': ['warn', 'always'],
-    'array-bracket-spacing': ['warn', 'never'],
-    'object-curly-newline': ['warn', { multiline: true, consistent: true, minProperties: 4 }],
-    'function-paren-newline': ['warn', 'consistent'],
-    'computed-property-spacing': ['warn', 'never'],
-    'no-underscore-dangle': ['warn', { allow: ['__typename'] }],
-    // 'no-console': ['warn', { allow: ['warn', 'warn'] }],
-    'no-trailing-spaces': ['warn', { skipBlankLines: true }],
+    'comma-dangle': ['error', 'only-multiline'],
+    'object-curly-spacing': ['error', 'always'],
+    'array-bracket-spacing': ['error', 'never'],
+    'object-curly-newline': ['error', { multiline: true, consistent: true, minProperties: 4 }],
+    'function-paren-newline': ['error', 'consistent'],
+    'computed-property-spacing': ['error', 'never'],
+    'no-underscore-dangle': ['error', { allow: ['__typename'] }],
+    'no-console': ['error', { allow: ['warn', 'error'] }],
+    'no-trailing-spaces': ['error', { skipBlankLines: true }],
+
+    'import/no-mutable-exports': ['off'],
     'arrow-body-style': ['off'],
     'implicit-arrow-linebreak': ['off'],
     'array-callback-return': ['off'],
     'consistent-return': ['off'],
-    'react/jsx-first-prop-new-line': ['warn', 'multiline-multiprop'],
-    'react/jsx-max-props-per-line': ['warn', { maximum: 3 }],
-    'react/jsx-closing-bracket-location': ['warn', 'after-props'],
+
+    // react specific
+    'react/jsx-props-no-spreading': ['off'],
+    'react/jsx-indent-props': ['error', 2],
+    'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
+    'react/jsx-max-props-per-line': ['error'],
+    'react/jsx-closing-bracket-location': [1, 'after-props'],
+    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/prop-types': ['off'],
     'class-methods-use-this': ['off'],
     'no-use-before-define': ['off'],
 
-    'react/jsx-indent': ['warn', 2],
-    'react/jsx-indent-props': ['warn', 2],
-    'react/jsx-filename-extension': ['off'],
+    // custom lints
+    'import/no-dynamic-require': ['off'],
+    'import/prefer-default-export': ['off'],
+    'import/no-unresolved ': ['off'],
   },
-};
+}
