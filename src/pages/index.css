@@ -1,9 +1,6 @@
 @tailwind base;
 @tailwind components;
-
-/* Start purging... */
-@tailwind utilities;
-/* Stop purging. */
+@tailwind utilities; 
 
 
 .bg-color-brand {
