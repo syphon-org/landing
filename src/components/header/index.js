@@ -27,20 +27,20 @@ export const Header = () => (
         <div className="text-md text-right items-center md:flex-grow">
           <a
             href="/about"
-            className="block text-xl mt-4 md:mt-0 md:mr-6 text-white hover:text-teal-200 md:inline-block  ">
+            className="block text-xl mt-4 md:mt-0 md:mr-6 text-white hover:text-opacity-75 md:inline-block  ">
             About
           </a>
           <a
             href="/support"
-            className="block text-xl mt-4 md:mt-0 md:mr-6 text-white hover:text-teal-200 md:inline-block ">
+            className="block text-xl mt-4 md:mt-0 md:mr-6 text-white hover:text-opacity-75 md:inline-block ">
             Support
           </a>
           <a
             href="https://github.com/syphon-org/syphon/"
-            className="block text-xl mt-4 md:mt-0 md:mr-6 text-white hover:text-teal-200 md:inline-block ">
+            className="block text-xl mt-4 md:mt-0 md:mr-6 text-white hover:text-opacity-75 md:inline-block ">
             Github
           </a>
-          <a className="block text-xl mt-4 md:mt-0 md:mr-6 text-teal-200 md:inline-block ">
+          <a className="block text-xl mt-4 md:mt-0 md:mr-6 text-white text-opacity-50 md:inline-block ">
             Store (coming soon)
           </a>
           <a

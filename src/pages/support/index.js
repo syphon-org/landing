@@ -22,7 +22,7 @@ export default function Support() {
               need help?
             </span>
           </div>
-          <div className="flex flex-row pt-8">
+          <div className="flex flex-row pt-8 justify-center">
             <div className="px-2">
               <a
                 href="mailto:support@syphon.org?subject=Syphon%20Support&body=Leave%20your%20feedback%20or%20question%20here"
@@ -39,8 +39,11 @@ export default function Support() {
               <a
                 href="https://github.com/syphon-org/syphon/issues"
                 className="text-2xl mx-2"
-                style={{ cursor: 'pointer', letterSpacing: '0.5', textDecorationLine: 'underline' }}>submit a bug or issue</a>
+                style={{ cursor: 'pointer', letterSpacing: '0.5', textDecorationLine: 'underline' }}>submit a bug</a>
             </div>
+          </div>
+          <div className="flex flex-row pt-8 justify-center">
+            <div>please allow anywhere from 1-5 days for email or bug responses</div>
           </div>
         </div>
       </div>
