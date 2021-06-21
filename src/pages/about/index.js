@@ -6,6 +6,10 @@ import Head from 'next/head'
 
 import { Header } from '../../components/header'
 
+export const config = {
+  unstable_runtimeJS: false
+}
+
 export default function About() {
   return (
     <div className="app sans-serif bg-white">

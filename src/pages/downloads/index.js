@@ -1,5 +1,9 @@
 import React from 'react'
 
+export const config = {
+  unstable_runtimeJS: false
+}
+
 export default function Downloads() {
   return (
     <div className="app sans-serif">

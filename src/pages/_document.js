@@ -5,51 +5,6 @@ import Document, {
   Html, Head, Main, NextScript,
 } from 'next/document'
 
-class HeadProduction extends Head {
-  render() {
-    const { head } = this.context
-    const { children } = this.props
-
-    return (
-      <head {...this.props}>
-        <link
-          rel="preload"
-          href="/fonts/Rubik-Regular.ttf"
-          as="Rubik"
-          crossOrigin="" />
-        <link
-          rel="preload"
-          href="/fonts/Rubik-Light.ttf"
-          as="Rubik-Light"
-          crossOrigin="" />
-        <link
-          rel="preload"
-          href="/fonts/Rubik-Bold.ttf"
-          as="Rubik-Bold"
-          crossOrigin="" />
-        <link
-          rel="shortcut icon"
-          href="favicon.ico" />
-        <meta
-          name="viewport"
-          content="initial-scale=1.0, width=device-width" />
-        <meta
-          name="mobile-web-app-capable"
-          content="yes" />
-        <meta
-          name="apple-mobile-web-app-capable"
-          content="yes" />
-        <meta
-          property="og:image"
-          content="app-logo.png" />
-        {/* {this.getCssLinks()} */}
-        {children}
-        {head}
-      </head>
-    )
-  }
-}
-
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx)
@@ -60,7 +15,38 @@ export default class MyDocument extends Document {
     const isDev = process.env.NODE_ENV === 'development'
     return (
       <Html>
-        {isDev ? <Head /> : <HeadProduction />}
+        <Head {...this.props}>
+          <link
+            rel="preload"
+            href="/fonts/Rubik-Regular.ttf"
+            as="Rubik"
+            crossOrigin="" />
+          <link
+            rel="preload"
+            href="/fonts/Rubik-Light.ttf"
+            as="Rubik-Light"
+            crossOrigin="" />
+          <link
+            rel="preload"
+            href="/fonts/Rubik-Bold.ttf"
+            as="Rubik-Bold"
+            crossOrigin="" />
+          <link
+            rel="shortcut icon"
+            href="favicon.ico" />
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width" />
+          <meta
+            name="mobile-web-app-capable"
+            content="yes" />
+          <meta
+            name="apple-mobile-web-app-capable"
+            content="yes" />
+          <meta
+            property="og:image"
+            content="app-logo.png" />
+        </Head>
         <body className="leading-normal tracking-normal text-white gradient">
           <Main />
           {isDev && <NextScript />}

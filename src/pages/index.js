@@ -8,7 +8,11 @@ import { Header } from '../components/header'
 import { SectionWaves } from '../components/section-waves'
 import * as assets from '../global/assets'
 
-function Main() {
+export const config = {
+  unstable_runtimeJS: false
+}
+
+export default function Main() {
   return (
     <div className="app sans-serif gradient">
       <Head>
@@ -307,5 +311,3 @@ function Main() {
     </div>
   )
 }
-
-export default Main

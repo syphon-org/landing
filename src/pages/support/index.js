@@ -1,6 +1,8 @@
 import React from 'react'
 
-import { appIconWhite } from '../../global/assets'
+export const config = {
+  unstable_runtimeJS: false
+}
 
 export default function Support() {
   return (
