@@ -1,13 +1,14 @@
 @tailwind base;
 @tailwind components;
-
-/* Start purging... */
-@tailwind utilities;
-/* Stop purging. */
+@tailwind utilities; 
 
 
 .bg-color-brand {
     background-color:rgba(52, 199, 181, 1)
+}
+
+.container {
+    max-width: 1280px !important;
 }
 
 .color-brand {
