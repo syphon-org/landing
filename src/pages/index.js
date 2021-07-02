@@ -291,7 +291,7 @@ export default function Main() {
               className="h-16 mr-4"
               alt="Patreon"
               src="assets/external/eth-material.svg" />
-            <span className="rubik text-xl">Donate Etherem</span>
+            <span className="rubik text-xl">Donate Ethereum</span>
           </a>
           <a
             className="flex flex-row justify-start items-center shadow mx-4 my-4"
