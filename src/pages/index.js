@@ -271,6 +271,14 @@ export default function Main() {
             help@syphon.org
           </a>
         </div>
+        <div className="flex flex-row justify-center items-center pt-4">
+          <a
+            href="https://matrix.to/#/#syphon:matrix.org"
+            className="text-4xl leading-tight underline mx-8"
+            style={{ cursor: 'pointer', letterSpacing: '0.5' }}>
+            join the syphon chat
+          </a>
+        </div>
         <div className="w-full my-8">
           <div className="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t" />
         </div>
