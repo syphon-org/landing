@@ -2,10 +2,10 @@ import React from 'react'
 
 import * as assets from '../../global/assets'
 
-export const Header = () => (
+export const Header_Transparent = () => (
   <nav
-    id="header"
-    className="fixed w-full z-30 top-0 header">
+    id="header_transparent"
+    className="fixed w-full z-30 top-0">
     <div className="container flex flex-wrap items-center justify-between mx-auto mt-0 px-6 py-5">
       <a
         href="/#"
@@ -20,7 +20,7 @@ export const Header = () => (
         className="menu" />
       <label
         htmlFor="menu"
-        className="flex items-center px-4 py-1 border-2 text-xl md:hidden rounded text-white border-teal-100 menu-label hover:border-transparent hover:text-teal-500 hover:bg-white">
+        className="flex items-center px-4 py-1 border-2 text-xl md:hidden rounded text-white menu-label hover:border-transparent hover:text-teal-500 hover:bg-white">
         Menu
       </label>
       <div className="w-full justify-end flex flex-wrap md:items-center md:w-auto menu-content">
@@ -51,10 +51,10 @@ export const Header = () => (
             Github
           </a>
           <a className="block text-xl mt-4 md:mt-0 md:mr-6 text-white text-opacity-50 md:inline-block ">
-            Store (soon)
+            Store (coming soon)
           </a>
           <a className="block text-xl mt-4 md:mt-0 md:mr-6 text-white text-opacity-50 md:inline-block ">
-            Blog (soon)
+            Blog (coming soon)
           </a>
           <a
             href="https://github.com/syphon-org/syphon/releases"

@@ -5,3 +5,5 @@ Though the website is written using Next/JS, it is converted to static HTMl/CSS 
 
 ## todo
 - purge tailwindcss (200kb)
+- setup github api to automatically gather info for roadmap
+- get screenshots and add them in hub and maybe others

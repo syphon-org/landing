@@ -4,4 +4,5 @@ module.exports = {
   images: {
     dynamicAssetPrefix: true,
   },
+  plugins: [require('@tailwindcss/forms'),],
 }

@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer components {
+
+    .label-check{
+        @apply inline-flex items-center mt-4;
+    }
+    
+    .roadmap-check{
+    
+        @apply form-checkbox rounded-2xl h-8 w-8 text-teal;
+    }
+    
+    .roadmap-title{
+        @apply text-3xl text-white font-bold leading-none mb-3 rounded-xl bg-teal w-max p-4 rubik;
+    }
+    
+} */
+
+.bg-color-brand {
+    background-color: rgba(52, 199, 181, 1) ;
+    color: white;
+}
+
+.color-brand {
+    color: rgba(52, 199, 181, 1) 
+}
+
+.app {
+    height: 100vh;
+}
+
+.splash {
+    height: 100vh;
+}
+
+span {
+    font-family: Rubik;
+}
+.heading{
+    background-color: rgba(52, 199, 181, 1) ;
+}
+
+.app-padding {
+    padding-top: 10vh;
+}
+ 

@@ -14,12 +14,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        teal: { '500': '#34C7B5' }
+        teal: { 
+          '500': '#34C7B5',
+        },
+        'teal':  '#34C7B5',
       }
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/forms'),],
 }

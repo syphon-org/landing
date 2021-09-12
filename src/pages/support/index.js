@@ -1,3 +1,5 @@
+import { Header_Transparent } from 'components/header-transparent/index'
+import { Header } from 'components/header/index'
 import React from 'react'
 
 export const config = {
@@ -6,6 +8,8 @@ export const config = {
 
 export default function Support() {
   return (
+    <div>
+    <Header_Transparent />
     <div className="app sans-serif">
       <div className="splash flex flex-grow flex-col justify-center items-center">
         <div className="flex-col justify-center items-center text-center">
@@ -47,6 +51,7 @@ export default function Support() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }

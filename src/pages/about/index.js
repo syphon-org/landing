@@ -20,8 +20,8 @@ export default function About() {
       <section className="pt-40 pb-24 px-4 bg-white">
         <div className="container mx-auto flex flex-wrap flex-col md:flex-row justify-between items-center">
           <section className="container text-black max-w-5xl mx-auto">
-            <div className="flex flex-col justify-center">
-              <h4 className="text-4xl pb-4">why</h4>
+            <div className="flex flex-col justify-center w-4/6">
+              <h4 className="text-6xl text-teal mb-6 rubik">why</h4>
               <p className="text-xl text-black">
                 <b>Syphon aims to be built on the foundations of privacy, branding, and user experience </b>
                 in an effort to pull others away from proprietary chat clients to the matrix protocol.
