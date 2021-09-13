@@ -23,7 +23,3 @@ out
 
 !out/_next/static/css/
 !out/_next/static/images/
-
-#Vscodium workspace
-landing.code-workspace
-.vscode
