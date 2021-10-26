@@ -30,15 +30,22 @@ export const Header = () => (
             className="block text-xl mt-4 md:mt-0 md:mr-6 text-white hover:text-opacity-75 md:inline-block  ">
             About
           </a>
-          <a
+          {/* // TODO: finish FAQ page */}
+          {/* <a
             href="/faq"
             className="block text-xl mt-4 md:mt-0 md:mr-6 text-white hover:text-opacity-75 md:inline-block  ">
             FAQ
-          </a>
+          </a> */}
           <a
             href="/roadmap"
             className="block text-xl mt-4 md:mt-0 md:mr-6 text-white hover:text-opacity-75 md:inline-block ">
             Roadmap
+          </a>
+          {/* // TODO: remove once FAQ page is ready */}
+          <a
+            href="https://github.com/syphon-org/syphon"
+            className="block text-xl mt-4 md:mt-0 md:mr-6 text-white hover:text-opacity-75 md:inline-block ">
+            Github
           </a>
           <a
             href="/support"
@@ -48,6 +55,7 @@ export const Header = () => (
           <a className="block text-xl mt-4 md:mt-0 md:mr-6 text-white text-opacity-50 md:inline-block ">
             Store (soon)
           </a>
+          {/* // TODO: stand up blog page */}
           {/* <a className="block text-xl mt-4 md:mt-0 md:mr-6 text-white text-opacity-50 md:inline-block ">
             Blog (soon)
           </a> */}
