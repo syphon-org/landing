@@ -1,7 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable max-len */
-import React from 'react'
-
 import Head from 'next/head'
 
 import { Header } from '../../components/header'
