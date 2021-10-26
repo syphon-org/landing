@@ -39,6 +39,7 @@ export const Header_Transparent = () => (
             className="block text-xl mt-4 md:mt-0 md:mr-6 text-white hover:text-opacity-75 md:inline-block ">
             Roadmap
           </a>
+          {/* // TODO: remove once FAQ page is ready */}
           <a
             href="https://github.com/syphon-org/syphon"
             className="block text-xl mt-4 md:mt-0 md:mr-6 text-white hover:text-opacity-75 md:inline-block ">
