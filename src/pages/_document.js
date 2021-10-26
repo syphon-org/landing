@@ -1,6 +1,3 @@
-/* eslint-disable max-classes-per-file */
-import React from 'react'
-
 import Document, {
   Html, Head, Main, NextScript,
 } from 'next/document'
@@ -12,6 +9,7 @@ export default class MyDocument extends Document {
   }
 
   render() {
+    // eslint-disable-next-line no-undef
     const isDev = process.env.NODE_ENV === 'development'
     return (
       <Html>

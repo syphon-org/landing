@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 export const SectionWaves = () => (
   <div className="relative -mt-12 lg:-mt-24">
