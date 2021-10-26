@@ -119,20 +119,6 @@ export default function roadmap() {
               </label>
             </div>
 
-
-            <div className="pt-2 pb-3">
-              <label className="mt-4 flex">
-                <input
-                  type="checkbox"
-                  className="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
-                  disabled="true"
-                  checked></input>
-                <span className="ml-2 font-bold text-2xl text-gray-600">
-                  Token Authentication
-                </span>
-              </label>
-            </div>
-
             <div className="pt-2 pb-3">
               <label className="mt-4 flex">
                 <input
@@ -168,7 +154,7 @@ export default function roadmap() {
                   disabled="true"
                   checked></input>
                 <span className="ml-2 font-bold text-2xl text-gray-600">
-                  Token Authentication
+                  Themes, Colors, and Widget Customizations
                 </span>
               </label>
             </div>
