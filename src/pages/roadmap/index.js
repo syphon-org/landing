@@ -59,8 +59,6 @@ export default function roadmap() {
       {/* <SectionWaves/> */}
 
       {/* TODO: get custom css components working to clean up the html
-            TODO: get things centered
-       
        */}
       <section className="bg-white py-8 flex flex-col justify-center items-center">
         <div className="flex flex-col justify-center items-center max-w-xl pl-8">
