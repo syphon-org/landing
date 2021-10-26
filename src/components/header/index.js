@@ -1,5 +1,3 @@
-import React from 'react'
-
 import * as assets from '../../global/assets'
 
 export const Header = () => (
