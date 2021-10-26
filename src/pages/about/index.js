@@ -17,8 +17,8 @@ export default function About() {
       <Header />
       <section className="pt-40 pb-24 px-4 bg-white">
         <div className="container mx-auto flex flex-wrap flex-col md:flex-row justify-between items-center">
-          <section className="container text-black max-w-5xl mx-auto">
-            <div className="flex flex-col justify-center w-4/6">
+          <section className="container text-black max-w-5xl mx-auto flex flex-col items-center">
+            <div className="flex-1 w-5/6 max-w-5xl">
               <h4 className="text-6xl text-teal mb-6 rubik">why</h4>
               <p className="text-xl text-black">
                 <b>Syphon aims to be built on the foundations of privacy, branding, and user experience </b>
@@ -44,6 +44,7 @@ export default function About() {
                 Signals creator Moxie Marlinspike has discussesed how for mass adoption,
                 {' '}
                 <a
+                  style={{ color: 'blue' }}
                   className="underline"
                   href="https://www.newyorker.com/magazine/2020/10/26/taking-back-our-privacy">centralization of a platform and a focus on product will only help.</a>
                 {' '}
@@ -67,6 +68,7 @@ export default function About() {
                 chat protocol,
                 {' '}
                 <a
+                  style={{ color: 'blue' }}
                   className="underline"
                   href="https://matrix.org/blog/2020/06/02/introducing-p-2-p-matrix">and in a way already is</a>
                 ,
