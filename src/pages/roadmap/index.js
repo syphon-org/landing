@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 import { Header } from '../../components/header'
-import { FooterWaves, SectionWaves } from '../../components/section-waves/index'
+import { FooterWaves, } from '../../components/section-waves/index'
 import { Footer } from '../../components/footer/index'
 import { githubLogoCyan } from '../../global/assets'
 
@@ -56,7 +56,6 @@ export default function roadmap() {
           </a>
         </div>
       </section>
-      {/* <SectionWaves/> */}
 
       {/* TODO: get custom css components working to clean up the html
        */}
