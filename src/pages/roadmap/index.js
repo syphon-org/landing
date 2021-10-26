@@ -75,14 +75,15 @@ export default function roadmap() {
             TODO: get things centered
        
        */}
-      <section className="bg-white  py-8 ">
-        <div class="grid place-items-center">
-          <div className="p-6">
-            <h3 className=" text-3xl text-white font-bold leading-none mb-3 rounded-xl bg-teal w-max p-4 rubik">
-              v0.2.0
+      <section className="bg-white py-8 flex flex-col justify-center items-center">
+        <div class="flex flex-col justify-center items-center max-w-xl pl-8">
+
+          <div className="p-6 w-full"  >
+            <h3 className="text-3xl text-white font-bold leading-none mb-3 rounded-xl bg-teal w-max p-4 rubik">
+              <span> v0.2.0</span> 🎉 (Completed)
             </h3>
-            <div className="pt-3 pb-3">
-              <label class="mt-4">
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
                 <input
                   type="checkbox"
                   class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
@@ -95,8 +96,22 @@ export default function roadmap() {
               </label>
             </div>
 
-            <div className="pt-3 pb-3">
-              <label class="mt-4">
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
+                <input
+                  type="checkbox"
+                  class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
+                  disabled="true"
+                  checked
+                ></input>
+                <span class="ml-2 font-bold text-2xl text-gray-600">
+                  Multimedia Messaging
+                </span>
+              </label>
+            </div>
+
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
                 <input
                   type="checkbox"
                   class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
@@ -109,35 +124,22 @@ export default function roadmap() {
               </label>
             </div>
 
-            <div className="pt-3 pb-3">
-              <label cclass=" mt-4">
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
                 <input
                   type="checkbox"
                   class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
                   disabled="true"
-                  checked
-                ></input>
+                  checked />
                 <span class="ml-2 font-bold text-2xl text-gray-600">
                   Password restriction
                 </span>
               </label>
             </div>
 
-            <div className="pt-3 pb-3">
-              <label class="mt-4">
-                <input
-                  type="checkbox"
-                  class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
-                  disabled="true"
-                ></input>
-                <span class="ml-2 font-bold text-2xl text-gray-600">
-                  Desktop Builds
-                </span>
-              </label>
-            </div>
 
-            <div className="pt-3 pb-3">
-              <label class="mt-4">
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
                 <input
                   type="checkbox"
                   class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
@@ -150,8 +152,8 @@ export default function roadmap() {
               </label>
             </div>
 
-            <div className="pt-3 pb-3">
-              <label class="mt-4">
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
                 <input
                   type="checkbox"
                   class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
@@ -164,8 +166,8 @@ export default function roadmap() {
               </label>
             </div>
 
-            <div className="pt-3 pb-3">
-              <label class="mt-4">
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
                 <input
                   type="checkbox"
                   class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
@@ -178,8 +180,9 @@ export default function roadmap() {
               </label>
             </div>
 
-            <div className="pt-3 pb-3">
-              <label class="mt-4">
+
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
                 <input
                   type="checkbox"
                   class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
@@ -193,25 +196,53 @@ export default function roadmap() {
             </div>
           </div>
 
-          <div className="p-6">
+          <div className="p-6 w-full" >
             <h3 className=" text-3xl text-white font-bold leading-none mb-3 rounded-xl bg-teal w-max p-4 rubik">
-              v0.3.0
+              <span>v0.3.0</span> (In Progress)
             </h3>
-            <div className="pt-3 pb-3">
-              <label class="mt-4">
+
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
                 <input
                   type="checkbox"
                   class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
                   disabled="true"
                 ></input>
                 <span class="ml-2 font-bold text-2xl text-gray-600">
-                  Multimedia Messaging
+                  Cross Signing
                 </span>
               </label>
             </div>
 
-            <div className="pt-3 pb-3">
-              <label class="mt-4">
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
+                <input
+                  type="checkbox"
+                  class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
+                  disabled="true"
+                ></input>
+                <span class="ml-2 font-bold text-2xl text-gray-600">
+                  Manual Key Import / Export
+                </span>
+              </label>
+            </div>
+
+
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
+                <input
+                  type="checkbox"
+                  class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
+                  disabled="true"
+                ></input>
+                <span class="ml-2 font-bold text-2xl text-gray-600">
+                  Stable Desktop Builds
+                </span>
+              </label>
+            </div>
+
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
                 <input
                   type="checkbox"
                   class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
@@ -223,8 +254,8 @@ export default function roadmap() {
               </label>
             </div>
 
-            <div className="pt-3 pb-3">
-              <label cclass="mt-4">
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
                 <input
                   type="checkbox"
                   class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
@@ -235,27 +266,31 @@ export default function roadmap() {
                 </span>
               </label>
             </div>
+
+
           </div>
 
-          <div className="p-6">
+          <div className="p-6 w-full">
             <h3 className=" text-3xl text-white font-bold leading-none mb-3 rounded-xl bg-teal w-max p-4 rubik">
               v0.4.0
             </h3>
-            <div className="pt-3 pb-3">
-              <label class="mt-4">
+
+
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
                 <input
                   type="checkbox"
                   class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
                   disabled="true"
                 ></input>
                 <span class="ml-2 font-bold text-2xl text-gray-600">
-                  Out-Of-Band SMS
+                  Out-Of-Band SMS / MMS
                 </span>
               </label>
             </div>
 
-            <div className="pt-3 pb-3">
-              <label class="mt-4">
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
                 <input
                   type="checkbox"
                   class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
@@ -266,14 +301,55 @@ export default function roadmap() {
                 </span>
               </label>
             </div>
+
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
+                <input
+                  type="checkbox"
+                  class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
+                  disabled="true"
+                ></input>
+                <span class="ml-2 font-bold text-2xl text-gray-600">
+                  Theme Exports and Templates
+                </span>
+              </label>
+            </div>
+
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
+                <input
+                  type="checkbox"
+                  class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
+                  disabled="true"
+                ></input>
+                <span class="ml-2 font-bold text-2xl text-gray-600">
+                  Full UI Customizations
+                </span>
+              </label>
+            </div>
+
+
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
+                <input
+                  type="checkbox"
+                  class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
+                  disabled="true"
+                ></input>
+                <span class="ml-2 font-bold text-2xl text-gray-600">
+                  Full Backups
+                </span>
+              </label>
+            </div>
+
           </div>
 
-          <div className="p-6">
+          <div className="p-6 w-full">
             <h3 className=" text-3xl text-white font-bold leading-none mb-3 rounded-xl bg-teal w-max p-4 rubik">
               v0.5.0
             </h3>
-            <div className="pt-3 pb-3">
-              <label class="mt-4">
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
                 <input
                   type="checkbox"
                   class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
@@ -283,15 +359,55 @@ export default function roadmap() {
                   VoIP Calls
                 </span>
               </label>
+
+              <div className="pt-2 pb-3">
+                <label class="mt-4 flex">
+                  <input
+                    type="checkbox"
+                    class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
+                    disabled="true"
+                  ></input>
+                  <span class="ml-2 font-bold text-2xl text-gray-600">
+                    Sticker Pack Support
+                  </span>
+                </label>
+              </div>
             </div>
           </div>
 
-          <div className="p-6">
+          <div className="p-6 w-full">
             <h3 className=" text-3xl text-white font-bold leading-none mb-3 rounded-xl bg-teal w-max p-4 rubik">
               v0.6.0
             </h3>
-            <div className="pt-3 pb-3">
-              <label class="mt-4">
+
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
+                <input
+                  type="checkbox"
+                  class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
+                  disabled="true"
+                ></input>
+                <span class="ml-2 font-bold text-2xl text-gray-600">
+                  Pinecone / Libp2p integration
+                </span>
+              </label>
+            </div>
+
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
+                <input
+                  type="checkbox"
+                  class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
+                  disabled="true"
+                ></input>
+                <span class="ml-2 font-bold text-2xl text-gray-600">
+                  Locally run server on the client
+                </span>
+              </label>
+            </div>
+
+            <div className="pt-2 pb-3">
+              <label class="mt-4 flex">
                 <input
                   type="checkbox"
                   class="form-checkbox rounded-2xl h-8 w-8 text-teal border-4 border-teal"
@@ -304,9 +420,9 @@ export default function roadmap() {
             </div>
           </div>
 
-          <div className="p-6">
+          <div className="p-6 w-full">
             <h3 className=" text-3xl text-white font-bold leading-none mb-3 rounded-xl bg-teal w-max p-4 rubik">
-              Many more features in a not so far future
+              And Much More!
             </h3>
           </div>
         </div>
