@@ -71,6 +71,11 @@ export const Footer = () => {
                   href="https://twitter.com/syphonapp"
                   className="no-underline hover:underline text-white-800 hover:text-orange-500">twitter</a>
               </li>
+              <li className="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a
+                  href="https://fosstodon.org/@syphon"
+                  className="no-underline hover:underline text-white-800 hover:text-orange-500">mastodon</a>
+              </li>
             </ul>
           </div>
           <div className="flex-1">
