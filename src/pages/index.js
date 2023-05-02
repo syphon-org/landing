@@ -100,7 +100,7 @@ export default function Main() {
                 height='80px'
                 style={{ height: 58}}
                 alt='Download on Flathub'
-                src='https://flathub.org/assets/badges/flathub-badge-en.png' />
+                src='https://dl.flathub.org/assets/badges/flathub-badge-en.png' />
               </a>
             </div>
           </div>
