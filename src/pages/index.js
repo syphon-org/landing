@@ -65,7 +65,7 @@ export default function Main() {
               <a href="https://play.google.com/store/apps/details?id=org.tether.tether">
                 <img
                   height="80px"
-                  style={{ maxWidth: 188 }}
+                  style={{ height: 58}}
                   alt="Get it on Google Play"
                   src="assets/external/en_badge_web_generic.png" />
               </a>
@@ -73,23 +73,34 @@ export default function Main() {
             <div
               className="flex justify-center items-center mr-1 mt-1"
               style={{ minHeight: 52, minWidth: 172 }}>
-              <a href="https://apps.apple.com/us/app/syphon/id1496285352">
+              <a href="https://apps.apple.com/app/syphon/id1496285352">
                 <img
                   height="80px"
-                  style={{ height: 58, width: 172 }}
+                  style={{ height: 58}}
                   alt="Download on the App Store"
                   src="assets/external/download_on_the_app_store.svg" />
               </a>
             </div>
             <div
-              className="flex justify-center items-center mt-1"
-              style={{ minHeight: 52, minWidth: 188 }}>
+              className="flex justify-center items-center mr-1 mt-1"
+              style={{ minHeight: 52, minWidth: 172 }}>
               <a href="https://f-droid.org/packages/org.tether.tether">
                 <img
                   height="80px"
-                  style={{ height: 58, width: 188 }}
+                  style={{ height: 58}}
                   alt="Get it on F-Droid"
                   src="assets/external/get-it-on-fdroid.png" />
+              </a>
+            </div>
+            <div
+              className="flex justify-center items-center mr-1 mt-1"
+              style={{ minHeight: 52, minWidth: 172 }}>
+              <a href='https://flathub.org/apps/details/org.syphon.Syphon'>
+                <img
+                height='80px'
+                style={{ height: 58}}
+                alt='Download on Flathub'
+                src='https://dl.flathub.org/assets/badges/flathub-badge-en.png' />
               </a>
             </div>
           </div>
