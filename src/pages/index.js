@@ -65,7 +65,7 @@ export default function Main() {
               <a href="https://play.google.com/store/apps/details?id=org.tether.tether">
                 <img
                   height="80px"
-                  style={{ height: 58}}
+                  style={{ maxWidth: 188 }}
                   alt="Get it on Google Play"
                   src="assets/external/en_badge_web_generic.png" />
               </a>
@@ -73,34 +73,23 @@ export default function Main() {
             <div
               className="flex justify-center items-center mr-1 mt-1"
               style={{ minHeight: 52, minWidth: 172 }}>
-              <a href="https://apps.apple.com/app/syphon/id1496285352">
+              <a href="https://apps.apple.com/us/app/syphon/id1496285352">
                 <img
                   height="80px"
-                  style={{ height: 58}}
+                  style={{ height: 58, width: 172 }}
                   alt="Download on the App Store"
                   src="assets/external/download_on_the_app_store.svg" />
               </a>
             </div>
             <div
-              className="flex justify-center items-center mr-1 mt-1"
-              style={{ minHeight: 52, minWidth: 172 }}>
+              className="flex justify-center items-center mt-1"
+              style={{ minHeight: 52, minWidth: 188 }}>
               <a href="https://f-droid.org/packages/org.tether.tether">
                 <img
                   height="80px"
-                  style={{ height: 58}}
+                  style={{ height: 58, width: 188 }}
                   alt="Get it on F-Droid"
                   src="assets/external/get-it-on-fdroid.png" />
-              </a>
-            </div>
-            <div
-              className="flex justify-center items-center mr-1 mt-1"
-              style={{ minHeight: 52, minWidth: 172 }}>
-              <a href='https://flathub.org/apps/details/org.syphon.Syphon'>
-                <img
-                height='80px'
-                style={{ height: 58}}
-                alt='Download on Flathub'
-                src='https://dl.flathub.org/assets/badges/flathub-badge-en.png' />
               </a>
             </div>
           </div>
@@ -139,9 +128,8 @@ export default function Main() {
               </p>
             </div>
             <div className="w-full sm:w-2/5 p-6">
-              <div
-                className="w-full sm:h-64 mx-auto"
-                viewBox="0 0 1177 598.5">
+              {/* viewBox="0 0 1177 598.5" */}
+              <div className="w-full sm:h-64 mx-auto" >
                 <img src={assets.undrawMessagingFun.src} />
               </div>
             </div>
@@ -149,9 +137,8 @@ export default function Main() {
           <br />
           <div className="flex flex-wrap flex-col-reverse sm:flex-row lg:mt-16">
             <div className="w-full sm:w-1/2 p-6 mb-6">
-              <div
-                className="w-5/6 sm:h-64 mx-auto"
-                viewBox="0 0 1176.60617 873.97852">
+              {/* viewBox="0 0 1176.60617 873.97852" */}
+              <div className="w-5/6 sm:h-64 mx-auto" > 
                 <img src={assets.undrawConnection.src} />
               </div>
             </div>
@@ -177,18 +164,16 @@ export default function Main() {
                 </p>
               </div>
               <div className="w-full sm:w-2/5 p-6">
-                <div
-                  className="w-full sm:h-64 mx-auto"
-                  viewBox="0 0 1177 598.5">
+                {/* viewBox="0 0 1177 598.5" */}
+                <div className="w-full sm:h-64 mx-auto" >
                   <img src={assets.undrawInsertBlock.src} />
                 </div>
               </div>
             </div>
             <div className="flex flex-wrap flex-col-reverse sm:flex-row lg:mt-16">
               <div className="w-full sm:w-2/5 p-6 mt-6">
-                <div
-                  className="w-5/6 sm:h-64 mx-auto"
-                  viewBox="0 0 1176.60617 873.97852">
+                {/* viewBox="0 0 1176.60617 873.97852" */}
+                <div className="w-5/6 sm:h-64 mx-auto" >
                   <img src={assets.undrawVoid.src} />
                 </div>
               </div>
@@ -231,18 +216,16 @@ export default function Main() {
               </p>
             </div>
             <div className="w-full sm:w-2/5 p-6">
-              <div
-                className="w-full sm:h-64 mx-auto"
-                viewBox="0 0 1177 598.5">
+              {/* viewBox="0 0 1177 598.5"" */}
+              <div className="w-full sm:h-64 mx-auto" >
                 <img src={assets.undrawProfileData.src} />
               </div>
             </div>
           </div>
           <div className="flex flex-wrap flex-col-reverse sm:flex-row lg:mt-16">
             <div className="w-full sm:w-1/2 p-6 mt-6">
-              <div
-                className="w-5/6 sm:h-64 mx-auto"
-                viewBox="0 0 1176.60617 873.97852">
+              {/* viewBox="0 0 1176.60617 873.97852" */}
+              <div className="w-5/6 sm:h-64 mx-auto" >
                 <img src={assets.undrawGroupChat.src} />
               </div>
             </div>
