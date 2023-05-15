@@ -94,7 +94,7 @@ export const Footer = () => {
       <div
         className="credits justify-center flex flex-col items-center"
         style={{ paddingBottom: 16 }}>
-        <span className="text-white">Copyright © 2021 Ereio, LLC</span>
+        <span className="text-white">Copyright © 2023 Syphon Organization, LLC</span>
         <span className="text-white">Syphon ® is a registered trademark</span>
       </div>
     </footer>
